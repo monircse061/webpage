@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Monir | Website Admin</title>
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+  <div id="login-screen" class="login-screen" hidden>
+    <div class="login-card">
+      <div class="brand-mark">M</div>
+      <p class="eyebrow">PRIVATE WEBSITE MANAGEMENT</p>
+      <h1>Welcome back.</h1>
+      <p class="muted">Sign in with the GitHub account authorised to manage your academic website.</p>
+      <a class="button primary full" href="/auth/login">Continue with GitHub</a>
+      <p class="fine-print">This dashboard is private. Only the approved GitHub account can access it.</p>
+    </div>
+  </div>
+
+  <div id="app" class="app-shell" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="#overview"><span class="brand-mark">M</span><span><strong>Monir</strong><small>Website Admin</small></span></a>
+      <div class="nav-label">CONTENT</div>
+      <nav id="side-nav" class="side-nav">
+        <button class="nav-item active" data-view="overview"><span>▦</span> Overview</button>
+        <button class="nav-item" data-view="publications"><span>▤</span> Research papers</button>
+        <button class="nav-item" data-view="researchProjects"><span>◇</span> Research projects</button>
+        <button class="nav-item" data-view="academicProjects"><span>▧</span> Academic projects</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="status-line"><span class="status-dot"></span> Connected to GitHub</div>
+        <a href="https://monircse061.github.io/webpage/" target="_blank" rel="noopener">View live website ↗</a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div><p class="eyebrow">PERSONAL CONTENT MANAGER</p><h1 id="page-title">Overview</h1></div>
+        <div class="top-actions"><span id="user-label" class="user-label">GitHub account</span><button id="logout-button" class="button secondary small">Sign out</button></div>
+      </header>
+
+      <section id="notice" class="notice" hidden></section>
+
+      <section id="view-overview" class="view">
+        <div class="welcome-panel">
+          <div><p class="eyebrow light">YOUR ACADEMIC WEBSITE</p><h2>Keep your research profile up to date.</h2><p>Add a publication or project here. The dashboard will save it to GitHub, and your website will display it after GitHub Pages deploys the update.</p></div>
+          <div class="welcome-icon">✦</div>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span>Research papers</span><strong id="count-publications">0</strong><small>Managed through this dashboard</small></article>
+          <article class="stat-card"><span>Research projects</span><strong id="count-researchProjects">0</strong><small>Managed through this dashboard</small></article>
+          <article class="stat-card"><span>Academic projects</span><strong id="count-academicProjects">0</strong><small>Managed through this dashboard</small></article>
+        </div>
+        <div class="panel two-column-panel">
+          <div><p class="eyebrow">QUICK ACTION</p><h3>Add new content</h3><p class="muted">Choose a content type to open its form. You can edit or remove anything added through this dashboard.</p></div>
+          <div class="quick-actions"><button class="quick-action" data-create="publications"><span>＋</span><b>New paper</b></button><button class="quick-action" data-create="researchProjects"><span>＋</span><b>New research project</b></button><button class="quick-action" data-create="academicProjects"><span>＋</span><b>New academic project</b></button></div>
+        </div>
+        <div class="panel"><div class="panel-heading"><div><p class="eyebrow">RECENT ACTIVITY</p><h3>Recently updated content</h3></div></div><div id="recent-list" class="recent-list"><p class="empty-state">No dashboard-managed content yet.</p></div></div>
+        <p class="info-note"><strong>Note:</strong> Your existing website content remains unchanged. This dashboard manages new items added here; the original static entries are still displayed as before.</p>
+      </section>
+
+      <section id="view-publications" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">PUBLICATIONS</p><h2>Research papers</h2><p class="muted">Add journal articles, conference papers, accepted papers, and manuscripts under review.</p></div><button class="button primary" data-create="publications">＋ Add paper</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Managed papers</h3><span id="total-publications" class="count-pill">0 items</span></div><div id="list-publications" class="content-list"></div></div>
+      </section>
+
+      <section id="view-researchProjects" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">RESEARCH</p><h2>Research projects</h2><p class="muted">Describe your research work, methods, technologies, and project links.</p></div><button class="button primary" data-create="researchProjects">＋ Add project</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Managed research projects</h3><span id="total-researchProjects" class="count-pill">0 items</span></div><div id="list-researchProjects" class="content-list"></div></div>
+      </section>
+
+      <section id="view-academicProjects" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">ACADEMIC WORK</p><h2>Academic projects</h2><p class="muted">Add course projects, MSc projects, undergraduate projects, and related links.</p></div><button class="button primary" data-create="academicProjects">＋ Add project</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Managed academic projects</h3><span id="total-academicProjects" class="count-pill">0 items</span></div><div id="list-academicProjects" class="content-list"></div></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="content-dialog" class="editor-dialog">
+    <form id="content-form" method="dialog">
+      <div class="dialog-header"><div><p class="eyebrow">CONTENT EDITOR</p><h2 id="dialog-title">Add content</h2></div><button type="button" id="close-dialog" class="icon-button" aria-label="Close">×</button></div>
+      <div id="form-fields" class="form-grid"></div>
+      <div class="dialog-footer"><span id="form-message" class="muted"></span><div><button type="button" id="cancel-button" class="button secondary">Cancel</button><button type="submit" id="save-button" class="button primary">Publish to GitHub</button></div></div>
+    </form>
+  </dialog>
+
+  <script src="/admin.js" defer></script>
+</body>
+</html>
