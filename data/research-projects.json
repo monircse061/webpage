@@ -1,14 +1,114 @@
 [
   {
-    "id": "647099ea-9919-4933-97eb-992a560138d2",
-    "title": "Zero-Shot Voice-Based Screening of ALS and Parkinson's Disease Using Audio and Language Models",
-    "description": "Zero-Shot Voice-Based Screening of ALS and Parkinson's Disease Using Audio and Language Models\nResearch prototype. Not a medical diagnostic tool. This repository is for controlled research on whether pretrained language and audio-language models can identify speech patterns associated with amyotrophic lateral sclerosis (ALS) and Parkinson's disease (PD). It must not be used to diagnose, triage, or make treatment decisions.\n\nProject overview\nThis project investigates the use of pretrained models in a zero-shot setting for voice-based screening research. The initial models of interest are:\n\nQwen2-Audio: direct audio-language inference.\nFalcon3-Audio: direct audio-language inference, subject to confirming the selected checkpoint's input and inference interface.\nLlama: text-based inference after an automatic speech recognition (ASR) step, unless an audio-capable Llama variant is selected.\nThe main research question is:\n\nCan pretrained models, without task-specific fine-tuning, distinguish voice samples from people with ALS or PD from samples collected from healthy controls?\n\nThe project will evaluate both disease-level predictions and speech-characteristic descriptions. A speech characteristic such as dysarthria is not equivalent to an ALS or PD diagnosis. The analysis must keep these labels separate.\n\nResearch objectives\nEstablish reproducible zero-shot inference pipelines for audio-language and text-language models.\nCompare direct audio prompting with an ASR-to-text-to-LLM pipeline.\nEvaluate ALS, PD, and healthy-control (HC) classification where the dataset supports these labels.\nExamine whether predictions are stable across prompt wording, audio duration, and repeated runs.\nReport errors, uncertainty, and limitations rather than relying on accuracy alone.",
-    "technologies": "",
-    "role": "Lead Developer",
-    "year": "2026",
-    "githubUrl": "https://github.com/monircse061/Zero-Shot-Voice-Based-Screening-of-ALS-and-Parkinson-s-Disease-Using-Audio-LLMs",
+    "id": "research-project-1",
+    "title": "Development of an on-Premise AI Product Recommendation Model Using Open-Source LLM",
+    "description": "As part of my MSc AI project in collaboration with Narosu Co., Ltd., I am developing an on-premise AI-powered product recommendation system tailored for independent online store operators. While large marketplaces benefit from advanced AI models, smaller vendors often lack such capabilities. This project bridges that gap by delivering a localized, privacy-preserving, conversational AI chatbot that recommends products based on semantic understanding of customer input.",
+    "technologies": "Retrieval-Augmented Generation (RAG): Implements RAG pipeline using LangChain to combine vector-based retrieval with generative LLM responses, ensuring relevant and personalized product recommendations.; Natural Language Processing (NLP) and Vector Search: Utilizes semantic similarity search over a dataset of over 4 million product records to retrieve the top 5 most relevant products based on user input.; Conversational AI Chatbot Design: Supports conversation-based interaction using Open-Source LLMs (LLaMA) Supports multi-turn dialogue and remembers user preferences during a session. Handles English, Korean, and Japanese input. Recommends products with at least two product images included in the chatbot response via image URLs.; Supports conversation-based interaction using Open-Source LLMs (LLaMA); Supports multi-turn dialogue and remembers user preferences during a session.; Handles English, Korean, and Japanese input.; Recommends products with at least two product images included in the chatbot response via image URLs.; Adaptive Recommendations: If initial suggestions are rejected, it proposes alternatives using unmentioned keywords. Asks follow-up questions like preferred color, brand, or options to refine results.; If initial suggestions are rejected, it proposes alternatives using unmentioned keywords.; Asks follow-up questions like preferred color, brand, or options to refine results.; Multi-source Integration: Combines data from OwnerClan (3 products) and Naver (2 products via API or web crawling).; On-Premise Deployment: Ensures full control over recommendation logic and data privacy without relying on cloud infrastructure.; Performance Optimization: Chatbot responses are optimized to return within 5–10 seconds .; Embedding Model: text-embedding-ada-002 (OpenAI); Vector Database: Qdrant; LLM Reasoning: LLaMA 3.1 8B Instant; Framework: LangChain for RAG pipeline; User Interface: Gradio; Backend: Gradio + FastAPI",
+    "role": "",
+    "year": "",
+    "githubUrl": "https://github.com/monircse061/AI-Product-Recommendation-Using-LLM-and-RAG",
     "paperUrl": "",
     "imageUrl": "",
-    "createdAt": "2026-11-09T11:44:42.888Z"
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://github.com/monircse061/AI-Product-Recommendation-Using-LLM-and-RAG"
+      }
+    ],
+    "createdAt": "2000-01-06T00:00:00Z"
+  },
+  {
+    "id": "research-project-2",
+    "title": "Syntax-Aware LLM-Powered Code Completion Extension for Microsoft Small Basic and C",
+    "description": "This project introduces two new Visual Studio Code (VSCode) extensions designed to enhance code completion capabilities for Microsoft Small Basic and C, addressing the limitations of traditional and AI-based tools like Copilot. Unlike standard VSCode extensions that rely on user-typed prefixes or language-specific grammar assumptions, the proposed extensions provide syntax-structure-based code suggestions without requiring initial input, thereby aiding users unfamiliar with programming grammar.\n\n                                    Built using the YAPB parser builder tool and LR grammars, the system uses WithinTop3Guide to present the top three context-aware suggestions. It also features an interactive preview of candidates—displaying both identifier names and decomposable expressions—to improve comprehension and usability for both novice and advanced users. The extensions aim to provide grammar-compliant, generative AI-driven code completions and are fully open-source on GitHub.",
+    "technologies": "",
+    "role": "",
+    "year": "",
+    "githubUrl": "https://github.com/monircse061/C-Extension",
+    "paperUrl": "",
+    "imageUrl": "",
+    "links": [
+      {
+        "label": "Link 1 (C)",
+        "url": "https://github.com/monircse061/C-Extension"
+      },
+      {
+        "label": "Link 2 (SB)",
+        "url": "https://github.com/monircse061/Small-Basic-Extension"
+      }
+    ],
+    "createdAt": "2000-01-05T00:00:00Z"
+  },
+  {
+    "id": "research-project-3",
+    "title": "Cardio Vas. Disease Detection Using Random Forest Vs Decision Trees",
+    "description": "The Cardio Vas. Disease Detection project aims to develop a machine learning model in Python to predict the presence or absence of cardiovascular diseases (CVD) based on a set of input features. The project compares the performance of two popular tree-based algorithms, Random Forest and Decision Trees, for CVD prediction. These algorithms are \n                                    widely used in the field of machine learning and offer different advantages and trade-offs. The project utilizes a dataset containing various clinical and demographic features of individuals, such as age, gender, blood pressure, cholesterol levels, and smoking habits. Each instance in the dataset is labeled as either having a cardiovascular disease or being disease-free.",
+    "technologies": "",
+    "role": "",
+    "year": "",
+    "githubUrl": "",
+    "paperUrl": "https://drive.google.com/file/d/1v_QhV_LDeJi05mWt5MyDGNBVU3Lx4Htt/view?usp=sharing",
+    "imageUrl": "",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://drive.google.com/file/d/1v_QhV_LDeJi05mWt5MyDGNBVU3Lx4Htt/view?usp=sharing"
+      }
+    ],
+    "createdAt": "2000-01-04T00:00:00Z"
+  },
+  {
+    "id": "research-project-4",
+    "title": "Cleveland Heart Disease Dataset Use Various Evaluation Metrics",
+    "description": "The Cleveland Heart Disease dataset contains a wide range of patient attributes, including clinical, demographic, and physiological features such as age, gender, cholesterol levels, blood pressure, and electrocardiogram measurements. Each instance in the dataset is labeled as either having heart disease or being disease-free.\n\n                                    In this project, various machine learning algorithms will be applied to the dataset, including but not limited to decision trees, random forest, support vector machines (SVM), logistic regression, and neural networks. These algorithms offer different strengths and weaknesses, and by evaluating their performance, we can identify the most effective approach for heart disease prediction.",
+    "technologies": "",
+    "role": "",
+    "year": "",
+    "githubUrl": "",
+    "paperUrl": "https://drive.google.com/file/d/1ONFPfH3bVCF8YPMqLte1otHAv24pnvIt/view?usp=sharing",
+    "imageUrl": "",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://drive.google.com/file/d/1ONFPfH3bVCF8YPMqLte1otHAv24pnvIt/view?usp=sharing"
+      }
+    ],
+    "createdAt": "2000-01-03T00:00:00Z"
+  },
+  {
+    "id": "research-project-5",
+    "title": "Iris Flower Classification using Deep Learning",
+    "description": "The Iris flower dataset consists of measurements of sepal length, sepal width, petal length, and petal width for three different species of Iris flowers: Setosa, Versicolor, and Virginica. The goal of the project is to develop a deep learning model that can analyze these feature measurements and accurately predict the corresponding Iris flower species. In this project, a deep learning model will be designed and trained using the Iris flower dataset. The model will be built using popular deep learning frameworks such as TensorFlow or PyTorch, which provide a wide range of tools and functionalities for constructing and training neural networks.",
+    "technologies": "",
+    "role": "",
+    "year": "",
+    "githubUrl": "",
+    "paperUrl": "Research-Works.html",
+    "imageUrl": "",
+    "links": [
+      {
+        "label": "Coming Soon",
+        "url": "Research-Works.html"
+      }
+    ],
+    "createdAt": "2000-01-02T00:00:00Z"
+  },
+  {
+    "id": "research-project-6",
+    "title": "Cyberbullying Detection on Social Platforms",
+    "description": "The project utilizes NLP techniques to analyze the text content of social media posts and classify them as either cyberbullying or non-cyberbullying. NLP encompasses a range of methods and algorithms that enable computers to understand and process human language. By applying techniques such as text preprocessing, sentiment analysis, part-of-speech tagging, and machine learning, the project aims to extract meaningful features from text data and develop a robust model for cyberbullying detection. The development of the model involves several steps. Firstly, a comprehensive dataset of social media posts, labeled as either cyberbullying or non-cyberbullying, is collected and prepared for analysis. The dataset may include various forms of text data, such as tweets, comments, or forum posts, from different social media platforms. Next, the collected data is preprocessed to remove noise, handle punctuation, and transform the text into a format suitable for analysis. NLP techniques, such as tokenization, stemming, and",
+    "technologies": "Natural language processing (NLP), text preprocessing, sentiment analysis, part-of-speech tagging, machine learning",
+    "role": "",
+    "year": "",
+    "githubUrl": "",
+    "paperUrl": "",
+    "imageUrl": "",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://drive.google.com/file/d/1CjAjUcCn0DvEuiGNUuVzWQp-FCt4olau/view?usp=sharing"
+      }
+    ],
+    "createdAt": "2000-01-02T12:00:00Z"
   }
 ]

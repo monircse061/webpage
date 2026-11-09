@@ -1,0 +1,19 @@
+{
+  "migration": "legacy-content-import",
+  "source": "Original uploaded website HTML and existing JSON records",
+  "counts": {
+    "experience": 6,
+    "academic-projects": 13,
+    "publications": 13,
+    "achievements": 9,
+    "certifications": 22,
+    "teaching-courses": 24,
+    "research-projects": 6,
+    "milestones": 15,
+    "showcases": 5,
+    "home-profile": 1,
+    "education": 4,
+    "test-scores": 2,
+    "leadership": 4
+  }
+}

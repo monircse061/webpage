@@ -1,1 +1,311 @@
-[]
+[
+  {
+    "id": "pub-13",
+    "title": "A Deep Multimodal Approach for Accurate Bangla Handwritten Character and Digit Classification",
+    "authors": "Md Monir Ahammod Bin Atique, Md. Morshed Ali",
+    "venue": "IEEE Transactions on Emerging Topics in Computing",
+    "venueUrl": "",
+    "year": "",
+    "status": "Under Review",
+    "doi": "",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516",
+    "pdfUrl": "",
+    "abstract": "The identification of handwritten Bengali letters and digits continues to present a significant challenge in optical character recognition (OCR) \n                                    because of the script's intrinsic complexity, visual similarity between characters, and the diversity of handwriting styles.  Existing collection of data and classification models frequently fail to \n                                    encompass this variability, hence constraining effective implementation in practical educational and administrative contexts.  This research presents a new and comprehensive dataset of handwritten \n                                    Bengali script, rigorously gathered from more than 100 primary schools across several districts.  The collection includes diverse handwriting examples from young learners, comprising 50 fundamental \n                                    characters and 10 digits, and provides detailed representation of spatial and chronological variations.....",
+    "links": [
+      {
+        "label": "Journal Link",
+        "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516"
+      }
+    ],
+    "legacyRank": 13,
+    "createdAt": "2000-01-12T00:00:00Z"
+  },
+  {
+    "id": "pub-12",
+    "title": "BanglaEduSet: A Benchmark Dataset of Bangla Handwritten Scripts from Elementary-Level Students.",
+    "authors": "Md Monir Ahammod Bin Atique, Md. Morshed Ali",
+    "venue": "Scientific Data",
+    "venueUrl": "",
+    "year": "",
+    "status": "Under Review",
+    "doi": "",
+    "url": "https://www.nature.com/sdata/",
+    "pdfUrl": "",
+    "abstract": "The task of Handwritten Bangla Character Recognition (BHCR) remains challenging due to the script's high morphological similarity between distinct characters and the extreme variation in elementary student handwriting. Conventional Convolutional Neural Networks (CNNs), even when leveraging Transfer Learning, frequently exhibit confusion between visually ambiguous graphemes, resulting in degraded generalization performance.\n\nTo overcome this limitation, we propose a novel Multimodal Fusion architecture that integrates linguistic context with visual feature extraction. The model employs a frozen VGG16 backbone for robust visual feature extraction, and concurrently utilizes a pre-trained Multilingual BERT (mBERT) model to generate a 768-dimensional semantic embedding S for each of the 60 target classes (50 characters and 10 digits). These features are fused via a concatenation layer, enabling the subsequent classification head to resolve visual ambiguity by leveraging semantic information.\n\nThe model was trained on a unique, augmented dataset designed to capture the variability of early educational handwriting styles. This semantic-enhanced approach is demonstrated to significantly improve recognition accuracy and robustness against outlier samples, offering a superior solution for processing complex handwritten indic scripts.",
+    "links": [
+      {
+        "label": "Journal Link",
+        "url": "https://www.nature.com/sdata/"
+      }
+    ],
+    "legacyRank": 12,
+    "createdAt": "2000-01-11T00:00:00Z"
+  },
+  {
+    "id": "pub-11",
+    "title": "AQuaDepth: Adaptive Quality Enhancement and Diffusion-Based Restoration Framework for Accurate Underwater Depth Estimation Using Vision Transformers",
+    "authors": "Dabbrata Das, Mahshar Yahan, Md Monir Ahammod Bin Atique, and Ashad Kabir",
+    "venue": "IEEE Transactions on Emerging Topics in Computing",
+    "venueUrl": "",
+    "year": "",
+    "status": "Under Review",
+    "doi": "",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516",
+    "pdfUrl": "",
+    "abstract": "Accurate depth estimation is a fundamental requirement in underwater vision, but it is severely hindered by haze,\nlow contrast, and colour distortions that degrade image quality and obscure structural details. To address these chal-\nlenges, we propose a completely new three-stage hybrid framework for depth prediction that sequentially integrates\nenhancement, restoration, and depth estimation. In the first stage, underwater images are enhanced using de-hazing,\ncontrast-limited adaptive histogram equalization, and edge refinement to improve visibility and structural clarity. In\nthe second stage, a generative restoration process with Stable Diffusion is applied to recover subtle object boundaries\nand fine textures often overlooked or vague in conventional approaches. Finally, in the third stage, depth predic-\ntion is performed using a transformer-based vision model, ensuring that both global clarity and fine structural details\ncontribute to reliable perception. Evaluation on the UIEB and LSUI datasets demonstrates the effectiveness of the\nframework, achieving an NIQE score of 3.02 and a UIQM score of 3.08, surpassing state-of-the-art enhancement\ntechniques. Quantitative and qualitative results confirm that the proposed approach produces high-quality enhanced\nimages, enabling depth maps with superior depth separation, clearer structural details, and improved scene consis-\ntency, leading to more accurate and visually reliable depth perception.",
+    "links": [
+      {
+        "label": "Journal Link",
+        "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516"
+      }
+    ],
+    "legacyRank": 11,
+    "createdAt": "2000-01-10T00:00:00Z"
+  },
+  {
+    "id": "pub-10",
+    "title": "Improving LLM based Code Completion Using LR Parsing and Its Evaluation",
+    "authors": "Md Monir Ahammod Bin Atique, Hyeon-Ah Moon, Isao Sasano, and Kwanghoon Choi",
+    "venue": "Journal of Computer Languages, Elsevier (2025)",
+    "venueUrl": "",
+    "year": "2025",
+    "status": "Accepted",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S2590118425000383",
+    "pdfUrl": "",
+    "abstract": "Code completion is a crucial feature in modern IDEs, improving programming efficiency.\n                                    Traditional systems rely on prefix filtering and static ranking but often overwhelm users with\n                                    lengthy, alphabetically sorted lists. Recent research has introduced LR-parsing-based approaches\n                                    that derive completion candidates from language syntax and compute their ranks using open-\n                                    source programs; however, these methods only suggest structural candidates, requiring manual\n                                    refinement into complete code. To address this, we propose a hybrid method that integrates LR\n                                    parsing with LLMs to enhance accuracy and usability. Our approach refines structural candidates\n                                    using LR parsing into textual code suggestions via an LLM, referencing a database of ranked\n                                    candidates from open-source programs. This combines the syntactic precision of LR parsing\n                                    with the generative capabilities of LLMs. This study examines whether LLMs benefit from LR\n                                    structural candidates in code completion. By comparing completions with and without these\n                                    candidates, we assess their impact. Building on prior research, we also explore how leveraging\n                                    top-ranked structural candidates can effectively enhance LLM-based code completion precision.\n                                    We also demonstrate our method through VSCode extensions for Microsoft Small Basic and C.\n                                    As a language-agnostic solution, our system applies to any language with a defined LR grammar.\n                                    Our findings suggest that integrating LR parsing with LLM-based completion improves both\n                                    accuracy and usability, paving the way for more effective code completion in modern IDEs.",
+    "links": [
+      {
+        "label": "Journal Link",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2590118425000383"
+      }
+    ],
+    "legacyRank": 10,
+    "createdAt": "2000-01-09T00:00:00Z"
+  },
+  {
+    "id": "pub-9",
+    "title": "A Comparative Analysis of ChatGPT 3.5 and Llama 3 in LLM-Based Code Completion Using LR Parsing",
+    "authors": "Md. Monir Ahammod Bin Atique and Kwanghoon Choi",
+    "venue": "Annual Symposium of KIPS 2025 (ASK 2025), Kyungpook National University Daegu Campus, Daegu, Korea",
+    "venueUrl": "",
+    "year": "2025",
+    "status": "Under Review",
+    "doi": "",
+    "url": "https://www.manuscriptlink.com/society/kips/conference/ask2025",
+    "pdfUrl": "",
+    "abstract": "Modern integrated development environments (IDEs) rely on code completion as a key feature to enhance \n                                    coding efficiency and streamline the developer workflow. Traditional approaches to code completion have often \n                                    relied on rule-based techniques, static ranking, and prefix-based filtering, which pose challenges in terms of \n                                    usability and efficiency. Recent research has introduced LR-parsing-based approaches that generate structural \n                                    candidate suggestions by leveraging language syntax and open-source programs, but they often require manual \n                                    refinement. Meanwhile, recent advancements in large language models (LLMs) have significantly amplified\n                                    predictive performance in code completion tasks. However, despite these progress, the impact of LLM selection on \n                                    LR-parsing based syntax-aware code generation remains underexplored. In this study, we conduct a comparative \n                                    analysis of the performance and impact of two prominent LLMs, ChatGPT 3.5 and Llama 3, within an LR parsing based code completion framework. Our experiments, evaluated using SacreBLEU and SequenceMatcher accuracy \n                                    metrics, reveal that ChatGPT 3.5 achieves higher accuracy than Llama 3, underscoring the importance of selecting \n                                    an appropriate LLM for enhanced code completion. These findings highlight the role of model selection in LLM based code completion using LR parsing. Future research could extend this comparative analysis to a broader \n                                    range of LLMs.",
+    "links": [
+      {
+        "label": "Conference Link",
+        "url": "https://www.manuscriptlink.com/society/kips/conference/ask2025"
+      }
+    ],
+    "legacyRank": 9,
+    "createdAt": "2000-01-08T00:00:00Z"
+  },
+  {
+    "id": "pub-8",
+    "title": "A Comparative Analysis of Grammar Provision in LLM-based Code Completion using LR Parsing",
+    "authors": "Md. Monir Ahammod Bin Atique and Kwanghoon Choi",
+    "venue": "2025 Korea Smart Media Society & Korea Electronic Transactions Society Spring Conference, Chung-Ang University, Seoul, Korea",
+    "venueUrl": "",
+    "year": "2025",
+    "status": "Accepted",
+    "doi": "",
+    "url": "https://kism.jams.or.kr/co/locale.kci;jsessionid=aBS5n7EhP8MYpyqmsDBTtFX728p74Yjl3EKa1RZept3a7RKZUKV7i1xasaTLYdMM.JAMSWAS2_servlet_engine1?lang=en_US",
+    "pdfUrl": "",
+    "abstract": "Code completion is a key feature in modern integrated development environments (IDEs), aiding\n                                    developers in improving coding efficiency. While traditional methods rely on prefix-based filtering\n                                    and static ranking, LR-parsing-based approaches offer structural candidates from language syntax\n                                    as code suggestions to the user, but are limited by manual refinement. Recently, large language\n                                    models (LLMs) have enhanced code completion without explicit knowledge of language grammar in\n                                    the given prompt. This study investigates whether incorporating LR grammar-based structural\n                                    candidates into LLM-driven code completion improves performance. Experiments using SacreBLEU\n                                    and SequenceMatcher on Microsoft Small Basic and C show no significant (accuracy) gain,\n                                    suggesting LLMs may already internalize grammar or need alternative evaluation.",
+    "links": [
+      {
+        "label": "Conference Link",
+        "url": "https://kism.jams.or.kr/co/locale.kci;jsessionid=aBS5n7EhP8MYpyqmsDBTtFX728p74Yjl3EKa1RZept3a7RKZUKV7i1xasaTLYdMM.JAMSWAS2_servlet_engine1?lang=en_US"
+      }
+    ],
+    "legacyRank": 8,
+    "createdAt": "2000-01-07T00:00:00Z"
+  },
+  {
+    "id": "pub-7",
+    "title": "STMFNet: Spatial Texture Multi-Scale Feature Fusion Attention Network for Diabetic Retinopathy Classification",
+    "authors": "MD Ilias Bappi, Md. Monir Ahammod Bin Atique, Kyungbaek Kim",
+    "venue": "2025 International Conference on Artificial Intelligence in Information and Communication (ICAIIC), Fukuoka, Japan (Publisher: IEEE)",
+    "venueUrl": "",
+    "year": "2025",
+    "status": "Published",
+    "doi": "",
+    "url": "https://ieeexplore.ieee.org/document/10920810",
+    "pdfUrl": "",
+    "abstract": "Diabetic Retinopathy (DR) is a major cause of vision loss and blindness, particularly among diabetic patients. Effective and timely treatment of DR relies on precise and automated detection systems that can assess disease severity from retinal fundus images. Traditional clinical approaches are often time-consuming, and earlier texture attention models may struggle to accurately detect subtle features, such as microaneurysms or abnormal blood vessel patterns, which are crucial for early diagnosis. To address this, we proposed the STMFNet model, a hierarchical framework designed for classifying 11 stages of DR severity. The model combines two primary mechanisms: The Texture Spatial Attention Network, which focuses on identifying critical texture features related to DR while minimizing irrelevant background information through attention gating, and the EfficientNet backbone with Multi-Scale Feature Fusion, which captures a wide range of image patterns. By extracting and fusing features from different layers of EfficientNet-V1 BO, the model effectively learns both low (e.g., edges, blobs) and high (e.g., objects, patterns) level representations. These features are further refined through spatial multi-scale attention, and the final classification into 11 DR stages is achieved through a Fully Connected Network (FCN) and SoftMax. Our experimental results show that STMFNet significantly outperforms existing state-of-the-art models on the publicly available Kaggle fundus dataset, demonstrating its potential for reliable DR diagnosis in clinical settings.",
+    "links": [
+      {
+        "label": "Paper Link",
+        "url": "https://ieeexplore.ieee.org/document/10920810"
+      }
+    ],
+    "legacyRank": 7,
+    "createdAt": "2000-01-06T00:00:00Z"
+  },
+  {
+    "id": "pub-6",
+    "title": "Improving LLM-based Code Completion Using LR Parsing-Based Candidates",
+    "authors": "Md. Monir Ahammod Bin Atique, Kwanghoon Choi, Isao Sasano, Hyeon-Ah Moon",
+    "venue": "on SCSS 2024: 10th International Symposium on Symbolic Computation in Software Science, August 28–30, 2024, Tokyo, Japan (CEUR Workshop Proceedings)",
+    "venueUrl": "",
+    "year": "2024",
+    "status": "Published",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3754/paper01.pdf",
+    "pdfUrl": "",
+    "abstract": "Programmers often use syntax completion and code suggestion features. Our methodology enhances code completion by combining structural candidate information from LR parsing with LLMs. These structural candidates are utilized to compose prompts so that ChatGPT can predict actual code under the specified structure. Tested on Small Basic and C benchmarks, this approach offers textual suggestions rather than just structural ones, showing nearly 50% prediction accuracy for Small Basic programs. While effective for Small Basic, we report that challenges remain with C11 programs.",
+    "links": [
+      {
+        "label": "Paper Link",
+        "url": "https://ceur-ws.org/Vol-3754/paper01.pdf"
+      },
+      {
+        "label": "Conference Link",
+        "url": "https://www.scss-conference.org/"
+      }
+    ],
+    "legacyRank": 6,
+    "createdAt": "2000-01-05T00:00:00Z"
+  },
+  {
+    "id": "pub-5",
+    "title": "Enhancing Employee Turnover Prediction: An Advanced Feature Engineering Analysis with CatBoost",
+    "authors": "Md. Monir Ahammod Bin Atique, Md. Ilias Bappi",
+    "venue": "Journal of Computer Systems Science and Engineering, 2024",
+    "venueUrl": "",
+    "year": "2024",
+    "status": "Accepted",
+    "doi": "",
+    "url": "https://www.techscience.com/csse/v49n1/63444",
+    "pdfUrl": "",
+    "abstract": "An industry or firm cannot imagine without employees. It suffers\n                                    considerably when an employee leaves the firm for personal or professional\n                                    reasons. During this time, the company wastes additional time and resources on\n                                    new recruitment and training processes. In addition, the company's ongoing tasks\n                                    become increasingly difficult to complete on schedule. Therefore, when the\n                                    voluntary attrition rate is high, the organization will experience significant\n                                    financial and other difficulties. Under these situations, the Human Resource (HR)\n                                    department's first priority is to reduce the turnover rate. Artificial intelligence (AI)\n                                    is the most popular innovative technology that is used nowadays in business\n                                    strategies, organizational aspects, and people management. From this perspective,\n                                    further study has been conducted through the use of statistical analysis and various\n                                    Machine Learning (ML) and Data Mining approaches, such as Extreme Gradient\n                                    Boosting (XGBoost), Random Forest (RF), Naive Bayes (NB), Decision Trees\n                                    (DT), etc. This paper has applied a cutting-edge boosting technique, Categorical\n                                    Boosting (CatBoost), with an enhanced feature engineering process to detect and\n                                    analyze employee turnover on the IBM dataset. To analyze the effectiveness of\n                                    our detection system, we have also used our extended dataset to show our proposed\n                                    method's efficiency. Experimental results show that our detection technology\n                                    outperforms on both datasets than all other technologies. It reveals a highest\n                                    accuracy of 90.10% and an F1-score of 0.88 on the IBM dataset. Additionally, this\n                                    technique shows an optimal accuracy of 98.10% and an F1-score of 0.98 on the\n                                    extended dataset, strongly indicating the effectiveness of our proposed\n                                    methodology. Moreover, this work identifies the key causes of attrition.",
+    "links": [
+      {
+        "label": "Journal Link",
+        "url": "https://www.techscience.com/csse/v49n1/63444"
+      }
+    ],
+    "legacyRank": 5,
+    "createdAt": "2000-01-04T00:00:00Z"
+  },
+  {
+    "id": "pub-4",
+    "title": "Impact of Covid-19 on Bangladeshi university students mental health: ML and DL analysis",
+    "authors": "Md. Monir Ahammod Bin Atique, Md. Ilias Bappi, Kyungbaek Kim, Kwanghoon Choi, Md. Martuza Ahamad, Khondaker Masfiq Reza",
+    "venue": "on medRxiv (Cold Spring Harbor Laboratory Press)",
+    "venueUrl": "",
+    "year": "",
+    "status": "Published",
+    "doi": "",
+    "url": "https://www.medrxiv.org/content/10.1101/2024.05.17.24307476v1",
+    "pdfUrl": "",
+    "abstract": "The Covid-19 outbreak has adversely influenced university students across the world both physically and psychologically. The psychological struggle faced by students, is effected by various factors, including disruptions to daily routines and academic activities, increased reliance on smartphones and the internet, limited social interaction, and confinement to their homes. These impediments reflect a broader issue of imbalance in cognitive health status among them during the pandemic. In Bangladesh, despite having the necessary population to study, understanding the impact of Covid-19 on the mental health status of university students has been limited. Hence, it is imperative to diagnose mental health issues and deal with the underlying reasons in order to enhance students’ psychological well-being, which leads to academic achievement. Nowadays, Artificial Intelligence (AI) based prediction models have the potential to play a crucial role in predicting mental state early. The purpose of the study is to explore the following effects of the pandemic on the mental health of Bangladeshi university students using Machine Learning (ML) and Deep Learning (DL) techniques. A reliable AI prediction system requires real-world data, that was collected by a survey through a Google form (online questionnaires) among 400 students of 16 universities, and the respondents were 253. In this paper, after data preprocessing, ten widely known ML and four DL models were developed to automatically and accurately predict mental well-being during or after the Covid-19 circumstance. According to our findings, the Random Forest (RF) algorithm and Siamese Neural Networks (SNNs) outperformed other models in terms of accuracy (86% and 75%). Additionally, Chi-Square test was conducted, which revealed the five most common and significant predictors (“Stable family income”, “Disruption of daily life”, “Own income”, “Sleep status”, and “Fear of getting infected with Covid-19”) of psychological health conditions. Overall, this work could assist university administrations, government agencies, and health specialists in taking appropriate measures to understand and maintain students’ mental health. This research also suggests proper monitoring, government support, and social awareness during and after the worldwide epidemic to keep an excellent mental health state of university students.",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://www.medrxiv.org/content/10.1101/2024.05.17.24307476v1"
+      },
+      {
+        "label": "Paper",
+        "url": "https://www.medrxiv.org/content/10.1101/2024.05.17.24307476v1"
+      }
+    ],
+    "legacyRank": 4,
+    "createdAt": "2000-01-03T00:00:00Z"
+  },
+  {
+    "id": "pub-3",
+    "title": "Employee Attrition Analysis Using CatBoost",
+    "authors": "Md. Monir Ahammod Bin Atique, Md. Nesarul Hoque, and Md. Jamal Uddin",
+    "venue": "the Machine Intelligence and Emerging Technologies (Conference Proceedings-SpringerLink) [Scopus Indexed] ( Certificate )",
+    "venueUrl": "",
+    "year": "",
+    "status": "Published",
+    "doi": "https://doi.org/10.1007/978-3-031-34622-4_51",
+    "url": "https://www.researchgate.net/publication/371480938_Employee_Attrition_Analysis_Using_CatBoost",
+    "pdfUrl": "",
+    "abstract": "Almost everywhere, organizations or individuals can adopt\n                                    technologies that can be supportive to make decisions and get insight\n                                    from data: artificial intelligence (AI) is an advanced new technology\n                                    which is used to aid organizations in their business procedures, organizational factors, and human resources management. Employees are\n                                    the nucleus of the organization. When employees leave an institution of\n                                    their own volition, the company suffers greatly from various dimensions.\n                                    Nowadays, we have seen a huge change in companies due to COVID-19;\n                                    employees are getting fired or resigning voluntarily. It is a big issue to\n                                    keep the productivity constant of a company or individual as human\n                                    resources (HR) has to spend a lot of time, from the selection process\n                                    to the training process. In these circumstances, minimizing the attrition\n                                    rate is one of the primary concerns of the Human Resource department,\n                                    which deals with staffing, development, and compensation. From this\n                                    point of view, more research projects have been done through statistical\n                                    analysis and applying various types of machine learning (ML) and data\n                                    mining techniques such as Extreme Gradient Boosting, Random Forest,\n                                    Naive Bayes, decision trees, etc. In this paper, a state-of-the-art boosting\n                                    method, CatBoost, and a feature engineering process have been applied\n                                    for detecting and analyzing employee attrition. Our detection system\n                                    shows the utmost performance compared to the other existing systems\n                                    and sorts out the significant reasons behind the attrition. It reveals the\n                                    best recall rate of 0.89, with an accuracy of .8945.",
+    "links": [
+      {
+        "label": "Certificate",
+        "url": "https://drive.google.com/file/d/1eI2uDKawdyQSSoFKcCLVuaNOIVDmFQKJ/view?usp=sharing"
+      },
+      {
+        "label": "Short View",
+        "url": "https://monircse061.github.io/myportfolio/page-1.html"
+      },
+      {
+        "label": "Paper",
+        "url": "https://www.researchgate.net/publication/371480938_Employee_Attrition_Analysis_Using_CatBoost"
+      },
+      {
+        "label": "Link",
+        "url": "https://doi.org/10.1007/978-3-031-34622-4_51"
+      }
+    ],
+    "legacyRank": 3,
+    "createdAt": "2000-01-02T00:00:00Z"
+  },
+  {
+    "id": "pub-2",
+    "title": "Prediction of Power Consumption in Smart Grid: A Reliable Path to a Smart City Based on Various Machine Learning Models",
+    "authors": "Pranta Kumar Sarkar, Pallab Kumar Sarkar, and Md. Monir Ahammod Bin Atique",
+    "venue": "ICRPSET 2022: 7th International IEEE Conference on Recent Progresses in Science, Engineering and Technology",
+    "venueUrl": "https://ieeexplore.ieee.org/xpl/conhome/10188336/proceeding",
+    "year": "2022",
+    "status": "Published",
+    "doi": "10.1109/ICRPSET57982.2022.10188543",
+    "url": "https://doi.org/10.1109/ICRPSET57982.2022.10188543",
+    "pdfUrl": "",
+    "abstract": "The smart grid is a technology that was created today to address the problem of maintaining significant quantities of energy consumption with the help of emerging nations. Smart cities, like the smart grid, have an energy infrastructure that is arguably the single most important feature in any city. Smart cities depend on a smart grid to ensure resilient delivery of energy to supply their many functions, including those responsible for public safety and the public. It consists of smart distribution boards and circuit breakers integrated with home control and demand response, where load control switches and smart appliances are located. The smart grid vision is supported by the use of information and communication technology. In this article, the capabilities and technologies of the smart grid are compared across several machine learning and deep learning technologies. The deep learning (ANN) methodology was used to find the best approaches for forecasting grid stability. Various supervised machine learning classifiers are utilized to estimate accuracy, AUC-ROC, and other metrics. According to the investigation, deep learning-based estimations were actually more accurate than supervised learning-based ones. As a result, accurate power consumption estimation makes sure the entire chain runs smoothly",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://doi.org/10.1109/ICRPSET57982.2022.10188543"
+      },
+      {
+        "label": "Short View",
+        "url": "https://monircse061.github.io/myportfolio/page-3.html"
+      },
+      {
+        "label": "Paper",
+        "url": "https://www.researchgate.net/publication/372642674_Prediction_of_Power_Consumption_in_Smart_Grid_A_Reliable_Path_to_a_Smart_City_Based_on_Various_Machine_Learning_Models"
+      }
+    ],
+    "legacyRank": 2,
+    "createdAt": "2000-01-01T12:00:00Z"
+  },
+  {
+    "id": "pub-1",
+    "title": "Impact of COVID-19 on Mental Health among University Students - A Cohort Machine Learning Analysis in Bangladesh",
+    "authors": "Md. Monir Ahammod, Md. Martuza Ahamad, and Md. Jamal Uddin",
+    "venue": "Education and Information Technologies, Springer Nature",
+    "venueUrl": "https://link.springer.com/journal/10639",
+    "year": "",
+    "status": "Under Review",
+    "doi": "",
+    "url": "https://link.springer.com/journal/10639",
+    "pdfUrl": "https://drive.google.com/file/d/1DNP69HLgrwLjqhHy_jYrfMcgLVHns7Vt/view?usp=drive_link",
+    "abstract": "Bangladeshi university students have been affected both physically and mentally by the outbreak of COVID-19. Our university students' mental health, on the other hand, is not given the same level of attention as their physical health. The purpose of the study is to explore the impacts of this pandemic on the mental health state of Bangladeshi university students. In this paper, after data preprocessing, several machine learning models are developed to automatically and accurately predict mental health status. We observed that the Random Forest algorithm performed the best accuracy (>85%) to predict mental health conditions during or after the COVID-19 circumstance. We also conducted statistical analyses, which revealed the most common and significant predictors (Stable family income, Disruption of daily life, Own income, Sleep status) of mental health conditions during Covid-19. Overall, this work could assist university administrations, government agencies, and health specialists in taking appropriate steps to enhance our students' mental health. This research also suggests proper monitoring, government support, and social awareness during the pandemic and after the pandemic to keep an excellent mental health state of university students.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://drive.google.com/file/d/1DNP69HLgrwLjqhHy_jYrfMcgLVHns7Vt/view?usp=drive_link"
+      },
+      {
+        "label": "Short View",
+        "url": "https://monircse061.github.io/myportfolio/page-2.html"
+      },
+      {
+        "label": "Link",
+        "url": "https://www.springer.com/journal/10639"
+      }
+    ],
+    "legacyRank": 1,
+    "createdAt": "2000-01-01T00:00:00Z"
+  }
+]

@@ -1694,3 +1694,6 @@
  .u-container-layout.hover .u-section-9 .u-btn-1 {
      transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
  }
+/* Dashboard-managed homepage sections */
+.cms-home-timeline{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:20px 0 30px}.cms-timeline-card{background:#404040;border:1px solid #777;border-left:4px solid #ec8700;border-radius:9px;padding:18px 20px;color:#fff;text-align:left}.cms-timeline-card time{font-size:.85rem;font-weight:700;color:#ffa34d}.cms-timeline-card h3{font-size:1.05rem;margin:8px 0;color:#fff}.cms-timeline-card p{font-size:.95rem;line-height:1.6;margin:0 0 8px;color:#eee}.cms-timeline-link{color:#ffa34d}.cms-test-card{min-width:0}.cms-test-subscores{font-size:.9rem;line-height:1.65}.cms-subdetail{font-size:.88em;color:#ddd}.cms-publication-links{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:18px 0 4px}.cms-publication-links a{color:#ffa34d;text-decoration:underline}.cms-publication{padding-top:8px;padding-bottom:8px}
+@media(max-width:767px){.cms-home-timeline{grid-template-columns:1fr}.cms-timeline-card{padding:15px}}

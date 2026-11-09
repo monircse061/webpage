@@ -1,0 +1,88 @@
+[
+  {
+    "id": "achievement-1",
+    "title": "B.Sc. Engineering (UG-Level) (June 2022)",
+    "date": "2022",
+    "category": "Award / Scholarship",
+    "description": "Placed 2 nd out of 80 students",
+    "links": [],
+    "createdAt": "2022-01-30T00:00:00Z"
+  },
+  {
+    "id": "achievement-2",
+    "title": "Islami Bank Bangladesh Limited Scholarship, Graduation Level 2016 (2017-2020)",
+    "date": "2016",
+    "category": "Award / Scholarship",
+    "description": "Based on my outstanding higher secondary school academic success and financial condition, I have been granted this scholarship for four years. Which is funded by Islami Bank Bangladesh Student Branch.",
+    "links": [
+      {
+        "label": "Related link",
+        "url": "https://drive.google.com/file/d/1_TGb_EgMs24nMbt5QGvoUOaq9H5qOf9l/view?usp=sharing"
+      }
+    ],
+    "createdAt": "2016-01-29T00:00:00Z"
+  },
+  {
+    "id": "achievement-3",
+    "title": "Sonali Bank Limited Education Stipend",
+    "date": "2016",
+    "category": "Award / Scholarship",
+    "description": "Higher Secondary School level (2016)",
+    "links": [],
+    "createdAt": "2016-01-28T00:00:00Z"
+  },
+  {
+    "id": "achievement-4",
+    "title": "Best Student Performance Award from BSB (2016)",
+    "date": "2016",
+    "category": "Award / Scholarship",
+    "description": "Organized by: Cambrian Education Group for outstanding result in Higher Secondary School Certificate Examination (HSC) 2016.",
+    "links": [],
+    "createdAt": "2016-01-27T00:00:00Z"
+  },
+  {
+    "id": "achievement-5",
+    "title": "Youth Leadership Development Award (2016)",
+    "date": "2016",
+    "category": "Award / Scholarship",
+    "description": "Assessing my leadership capability and involvement in co-curricular activities.",
+    "links": [],
+    "createdAt": "2016-01-26T00:00:00Z"
+  },
+  {
+    "id": "achievement-6",
+    "title": "Scholarships to the Descendants of Freedom Fighters by the Government of India.",
+    "date": "",
+    "category": "Award / Scholarship",
+    "description": "Recipient",
+    "links": [],
+    "createdAt": "2000-01-25T00:00:00Z"
+  },
+  {
+    "id": "achievement-7",
+    "title": "Higher Secondary School Certificate Scholarship",
+    "date": "2016",
+    "category": "Award / Scholarship",
+    "description": "by the Bangladeshi Education Board (General Category -2016)",
+    "links": [],
+    "createdAt": "2016-01-24T00:00:00Z"
+  },
+  {
+    "id": "achievement-8",
+    "title": "Secondary School Certificate Scholarships",
+    "date": "2014",
+    "category": "Award / Scholarship",
+    "description": "by the Bangladeshi Education Board (General Category -2014)",
+    "links": [],
+    "createdAt": "2014-01-23T00:00:00Z"
+  },
+  {
+    "id": "achievement-9",
+    "title": "Junior School Certificate Scholarship",
+    "date": "2012",
+    "category": "Award / Scholarship",
+    "description": "by the Bangladeshi Education Board (Merit Category -2012)",
+    "links": [],
+    "createdAt": "2012-01-22T00:00:00Z"
+  }
+]

@@ -22,9 +22,28 @@
   <div id="app" class="app-shell" hidden>
     <aside class="sidebar">
       <a class="brand" href="#overview"><span class="brand-mark">M</span><span><strong>Monir</strong><small>Website Admin</small></span></a>
-      <div class="nav-label">CONTENT</div>
-      <nav id="side-nav" class="side-nav">
+      <div class="nav-label">DASHBOARD</div>
+      <nav class="side-nav">
         <button class="nav-item active" data-view="overview"><span>▦</span> Overview</button>
+      </nav>
+      <div class="nav-label nav-gap">HOME PAGE</div>
+      <nav class="side-nav">
+        <button class="nav-item" data-view="homeProfile"><span>◉</span> Profile & interests</button>
+        <button class="nav-item" data-view="education"><span>▤</span> Education</button>
+        <button class="nav-item" data-view="experience"><span>▣</span> Experience</button>
+        <button class="nav-item" data-view="milestones"><span>◷</span> Timeline / milestones</button>
+        <button class="nav-item" data-view="testScores"><span>◎</span> Standardized tests</button>
+      </nav>
+      <div class="nav-label nav-gap">TEACHING & ACTIVITIES</div>
+      <nav class="side-nav">
+        <button class="nav-item" data-view="teachingCourses"><span>▣</span> Teaching courses</button>
+        <button class="nav-item" data-view="certifications"><span>▧</span> Certificates & courses</button>
+        <button class="nav-item" data-view="leadership"><span>♧</span> Leadership & voluntary</button>
+        <button class="nav-item" data-view="achievements"><span>★</span> Awards & scholarships</button>
+        <button class="nav-item" data-view="showcases"><span>◇</span> Web & design showcase</button>
+      </nav>
+      <div class="nav-label nav-gap">PORTFOLIO</div>
+      <nav class="side-nav">
         <button class="nav-item" data-view="publications"><span>▤</span> Research papers</button>
         <button class="nav-item" data-view="researchProjects"><span>◇</span> Research projects</button>
         <button class="nav-item" data-view="academicProjects"><span>▧</span> Academic projects</button>
@@ -40,40 +59,103 @@
         <div><p class="eyebrow">PERSONAL CONTENT MANAGER</p><h1 id="page-title">Overview</h1></div>
         <div class="top-actions"><span id="user-label" class="user-label">GitHub account</span><button id="logout-button" class="button secondary small">Sign out</button></div>
       </header>
-
       <section id="notice" class="notice" hidden></section>
 
       <section id="view-overview" class="view">
         <div class="welcome-panel">
-          <div><p class="eyebrow light">YOUR ACADEMIC WEBSITE</p><h2>Keep your research profile up to date.</h2><p>Add a publication or project here. The dashboard will save it to GitHub, and your website will display it after GitHub Pages deploys the update.</p></div>
+          <div><p class="eyebrow light">YOUR ACADEMIC WEBSITE</p><h2>Manage your complete academic profile in one place.</h2><p>Manage your homepage, education, experience, test scores, teaching courses, all 13 legacy research papers, all 6 research projects, all academic projects, certificates, awards, leadership roles, and design showcase. Changes are committed to GitHub and published through GitHub Pages.</p></div>
           <div class="welcome-icon">✦</div>
         </div>
-        <div class="stats-grid">
-          <article class="stat-card"><span>Research papers</span><strong id="count-publications">0</strong><small>Managed through this dashboard</small></article>
-          <article class="stat-card"><span>Research projects</span><strong id="count-researchProjects">0</strong><small>Managed through this dashboard</small></article>
-          <article class="stat-card"><span>Academic projects</span><strong id="count-academicProjects">0</strong><small>Managed through this dashboard</small></article>
+        <div class="stats-grid stats-grid-wide">
+          <article class="stat-card"><span>Education</span><strong id="count-education">0</strong><small>Qualifications</small></article>
+          <article class="stat-card"><span>Experience</span><strong id="count-experience">0</strong><small>Roles and appointments</small></article>
+          <article class="stat-card"><span>Timeline</span><strong id="count-milestones">0</strong><small>Homepage milestones</small></article>
+          <article class="stat-card"><span>Test scores</span><strong id="count-testScores">0</strong><small>DET, IELTS, PTE, GRE, etc.</small></article>
+          <article class="stat-card"><span>Research papers</span><strong id="count-publications">0</strong><small>Existing and new papers</small></article>
+          <article class="stat-card"><span>Research projects</span><strong id="count-researchProjects">0</strong><small>Existing and new projects</small></article>
+          <article class="stat-card"><span>Academic projects</span><strong id="count-academicProjects">0</strong><small>Existing and new projects</small></article>
+          <article class="stat-card"><span>Teaching courses</span><strong id="count-teachingCourses">0</strong><small>All institutions and semesters</small></article>
+          <article class="stat-card"><span>Certificates & courses</span><strong id="count-certifications">0</strong><small>Existing and new certificates</small></article>
+          <article class="stat-card"><span>Leadership roles</span><strong id="count-leadership">0</strong><small>Leadership and volunteering</small></article>
+          <article class="stat-card"><span>Awards & scholarships</span><strong id="count-achievements">0</strong><small>Academic achievements</small></article>
+          <article class="stat-card"><span>Web & design showcase</span><strong id="count-showcases">0</strong><small>Live demos and portfolio links</small></article>
         </div>
         <div class="panel two-column-panel">
-          <div><p class="eyebrow">QUICK ACTION</p><h3>Add new content</h3><p class="muted">Choose a content type to open its form. You can edit or remove anything added through this dashboard.</p></div>
-          <div class="quick-actions"><button class="quick-action" data-create="publications"><span>＋</span><b>New paper</b></button><button class="quick-action" data-create="researchProjects"><span>＋</span><b>New research project</b></button><button class="quick-action" data-create="academicProjects"><span>＋</span><b>New academic project</b></button></div>
+          <div><p class="eyebrow">START HERE</p><h3>Update your homepage</h3><p class="muted">Edit your name, biography, profile image, research interests, CV, and contact links.</p></div>
+          <div class="quick-actions"><button class="quick-action" data-create="homeProfile"><span>✎</span><b>Edit homepage profile</b></button><button class="quick-action" data-create="education"><span>＋</span><b>Add education</b></button><button class="quick-action" data-create="experience"><span>＋</span><b>Add experience</b></button></div>
         </div>
-        <div class="panel"><div class="panel-heading"><div><p class="eyebrow">RECENT ACTIVITY</p><h3>Recently updated content</h3></div></div><div id="recent-list" class="recent-list"><p class="empty-state">No dashboard-managed content yet.</p></div></div>
-        <p class="info-note"><strong>Note:</strong> Your existing website content remains unchanged. This dashboard manages new items added here; the original static entries are still displayed as before.</p>
+        <div class="panel two-column-panel">
+          <div><p class="eyebrow">PORTFOLIO</p><h3>Manage research and projects</h3><p class="muted">All current entries have been brought into the dashboard. Edit or delete an existing entry, or add a new one.</p></div>
+          <div class="quick-actions"><button class="quick-action" data-create="publications"><span>＋</span><b>New paper</b></button><button class="quick-action" data-create="researchProjects"><span>＋</span><b>New research project</b></button><button class="quick-action" data-create="academicProjects"><span>＋</span><b>New academic project</b></button><button class="quick-action" data-create="certifications"><span>＋</span><b>Add certificate</b></button><button class="quick-action" data-create="teachingCourses"><span>＋</span><b>Add taught course</b></button></div>
+        </div>
+        <div class="panel"><div class="panel-heading"><div><p class="eyebrow">RECENT ACTIVITY</p><h3>Recently updated content</h3></div></div><div id="recent-list" class="recent-list"><p class="empty-state">Loading your content…</p></div></div>
+        <p class="info-note"><strong>Sorting:</strong> Public lists are shown newest first using their year or date. Entries without a date keep their original order. Add a year or date when editing an older entry to place it correctly in the timeline.</p>
+      </section>
+
+      <section id="view-homeProfile" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">HOME PAGE</p><h2>Profile & interests</h2><p class="muted">Manage your introduction, photo, CV, research interests, co-curricular introduction, and contact links.</p></div><button class="button primary" data-create="homeProfile">✎ Edit profile</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Current homepage profile</h3><span class="count-pill">Single profile</span></div><div id="profile-summary"></div></div>
+        <div class="panel"><p class="muted">Profile photo and CV can be uploaded from the edit form. The uploaded files are saved in the repository and linked automatically.</p></div>
+      </section>
+
+      <section id="view-education" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">HOME PAGE</p><h2>Education</h2><p class="muted">Edit existing qualifications or add a university, college, or school record. The homepage sorts by end year, newest first.</p></div><button class="button primary" data-create="education">＋ Add education</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Education history</h3><div class="toolbar"><span id="total-education" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="education"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-education" class="content-list"></div></div>
+      </section>
+
+      <section id="view-experience" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">HOME PAGE</p><h2>Experience</h2><p class="muted">Manage teaching, research, industry, and other professional appointments.</p></div><button class="button primary" data-create="experience">＋ Add experience</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Professional experience</h3><div class="toolbar"><span id="total-experience" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="experience"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-experience" class="content-list"></div></div>
+      </section>
+
+      <section id="view-milestones" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">HOME PAGE</p><h2>Timeline / milestones</h2><p class="muted">Manage conference presentations, publications, appointments, awards, and other homepage updates.</p></div><button class="button primary" data-create="milestones">＋ Add milestone</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Homepage timeline</h3><div class="toolbar"><span id="total-milestones" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="milestones"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-milestones" class="content-list"></div></div>
+      </section>
+
+      <section id="view-testScores" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">HOME PAGE</p><h2>Standardized test scores</h2><p class="muted">Add or update DET, IELTS, PTE Academic, TOEFL, GRE, and other test results with section scores.</p></div><button class="button primary" data-create="testScores">＋ Add test score</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Test results</h3><div class="toolbar"><span id="total-testScores" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="testScores"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-testScores" class="content-list"></div></div>
       </section>
 
       <section id="view-publications" class="view" hidden>
-        <div class="section-intro"><div><p class="eyebrow">PUBLICATIONS</p><h2>Research papers</h2><p class="muted">Add journal articles, conference papers, accepted papers, and manuscripts under review.</p></div><button class="button primary" data-create="publications">＋ Add paper</button></div>
-        <div class="panel"><div class="panel-heading"><h3>Managed papers</h3><span id="total-publications" class="count-pill">0 items</span></div><div id="list-publications" class="content-list"></div></div>
+        <div class="section-intro"><div><p class="eyebrow">PORTFOLIO</p><h2>Research papers</h2><p class="muted">All papers currently displayed on your website are editable here. Add, edit, or delete a publication.</p></div><button class="button primary" data-create="publications">＋ Add paper</button></div>
+        <div class="panel"><div class="panel-heading"><h3>All research papers</h3><div class="toolbar"><span id="total-publications" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="publications"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-publications" class="content-list"></div></div>
       </section>
 
       <section id="view-researchProjects" class="view" hidden>
-        <div class="section-intro"><div><p class="eyebrow">RESEARCH</p><h2>Research projects</h2><p class="muted">Describe your research work, methods, technologies, and project links.</p></div><button class="button primary" data-create="researchProjects">＋ Add project</button></div>
-        <div class="panel"><div class="panel-heading"><h3>Managed research projects</h3><span id="total-researchProjects" class="count-pill">0 items</span></div><div id="list-researchProjects" class="content-list"></div></div>
+        <div class="section-intro"><div><p class="eyebrow">PORTFOLIO</p><h2>Research projects</h2><p class="muted">All current research-project cards are editable. Add project dates or years to sort them newest first.</p></div><button class="button primary" data-create="researchProjects">＋ Add project</button></div>
+        <div class="panel"><div class="panel-heading"><h3>All research projects</h3><div class="toolbar"><span id="total-researchProjects" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="researchProjects"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-researchProjects" class="content-list"></div></div>
       </section>
 
       <section id="view-academicProjects" class="view" hidden>
-        <div class="section-intro"><div><p class="eyebrow">ACADEMIC WORK</p><h2>Academic projects</h2><p class="muted">Add course projects, MSc projects, undergraduate projects, and related links.</p></div><button class="button primary" data-create="academicProjects">＋ Add project</button></div>
-        <div class="panel"><div class="panel-heading"><h3>Managed academic projects</h3><span id="total-academicProjects" class="count-pill">0 items</span></div><div id="list-academicProjects" class="content-list"></div></div>
+        <div class="section-intro"><div><p class="eyebrow">PORTFOLIO</p><h2>Academic projects</h2><p class="muted">All 13 projects imported from your existing Projects page are editable, including technologies and links.</p></div><button class="button primary" data-create="academicProjects">＋ Add project</button></div>
+        <div class="panel"><div class="panel-heading"><h3>All academic projects</h3><div class="toolbar"><span id="total-academicProjects" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="academicProjects"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-academicProjects" class="content-list"></div></div>
+      </section>
+
+      <section id="view-teachingCourses" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">TEACHING</p><h2>Teaching courses</h2><p class="muted">All courses currently shown on Teaching.html have been imported individually. Add, edit, or delete courses and sort semesters by year.</p></div><button class="button primary" data-create="teachingCourses">＋ Add taught course</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Courses taught at all institutions</h3><div class="toolbar"><span id="total-teachingCourses" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="teachingCourses"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-teachingCourses" class="content-list"></div></div>
+      </section>
+
+      <section id="view-certifications" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">COURSES & CERTIFICATES</p><h2>Certificates and courses</h2><p class="muted">All 17 certificate-gallery entries and 5 online-course entries from your existing Projects page are editable. Upload certificate images when needed.</p></div><button class="button primary" data-create="certifications">＋ Add certificate / course</button></div>
+        <div class="panel"><div class="panel-heading"><h3>All certificates and courses</h3><div class="toolbar"><span id="total-certifications" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="certifications"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-certifications" class="content-list"></div></div>
+      </section>
+
+      <section id="view-leadership" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">CO-CURRICULAR</p><h2>Leadership and voluntary experience</h2><p class="muted">Manage the existing leadership and volunteer roles shown on your Co-curricular page.</p></div><button class="button primary" data-create="leadership">＋ Add role</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Leadership and voluntary roles</h3><div class="toolbar"><span id="total-leadership" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="leadership"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-leadership" class="content-list"></div></div>
+      </section>
+
+      <section id="view-achievements" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">CO-CURRICULAR</p><h2>Awards and scholarships</h2><p class="muted">All existing awards, scholarships, and academic achievements are editable here.</p></div><button class="button primary" data-create="achievements">＋ Add award / scholarship</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Awards and scholarships</h3><div class="toolbar"><span id="total-achievements" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="achievements"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-achievements" class="content-list"></div></div>
+      </section>
+
+      <section id="view-showcases" class="view" hidden>
+        <div class="section-intro"><div><p class="eyebrow">CO-CURRICULAR</p><h2>Web development and design showcase</h2><p class="muted">Manage the five existing live demos and portfolio links shown on your Co-curricular page.</p></div><button class="button primary" data-create="showcases">＋ Add showcase item</button></div>
+        <div class="panel"><div class="panel-heading"><h3>Web and design portfolio</h3><div class="toolbar"><span id="total-showcases" class="count-pill">0 items</span><label class="sort-label">Sort <select data-sort="showcases"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div></div><div id="list-showcases" class="content-list"></div></div>
       </section>
     </main>
   </div>
@@ -82,10 +164,9 @@
     <form id="content-form" method="dialog">
       <div class="dialog-header"><div><p class="eyebrow">CONTENT EDITOR</p><h2 id="dialog-title">Add content</h2></div><button type="button" id="close-dialog" class="icon-button" aria-label="Close">×</button></div>
       <div id="form-fields" class="form-grid"></div>
-      <div class="dialog-footer"><span id="form-message" class="muted"></span><div><button type="button" id="cancel-button" class="button secondary">Cancel</button><button type="submit" id="save-button" class="button primary">Publish to GitHub</button></div></div>
+      <div class="dialog-footer"><span id="form-message" class="muted"></span><div><button type="button" id="cancel-button" class="button secondary">Cancel</button><button type="submit" id="save-button" class="button primary">Save to GitHub</button></div></div>
     </form>
   </dialog>
-
   <script src="/admin.js" defer></script>
 </body>
 </html>

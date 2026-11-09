@@ -1,7 +1,17 @@
 const CONTENT_FILES = {
+  homeProfile: 'data/home-profile.json',
+  education: 'data/education.json',
+  experience: 'data/experience.json',
+  milestones: 'data/milestones.json',
+  testScores: 'data/test-scores.json',
   publications: 'data/publications.json',
   researchProjects: 'data/research-projects.json',
-  academicProjects: 'data/academic-projects.json'
+  academicProjects: 'data/academic-projects.json',
+  teachingCourses: 'data/teaching-courses.json',
+  certifications: 'data/certifications.json',
+  leadership: 'data/leadership.json',
+  achievements: 'data/achievements.json',
+  showcases: 'data/showcases.json'
 };
 const SESSION_TTL = 60 * 60 * 12;
 const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;

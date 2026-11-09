@@ -1,1 +1,266 @@
-[]
+[
+  {
+    "title": "Development of an on-Premise AI Product Recommendation Model Using Open-Source LLM",
+    "course": "MSc Project",
+    "level": "Master’s",
+    "year": "",
+    "technologies": "Platform: Gradio | Language: Python | LLM: LLaMA 3.1 8B | Framework: LangChain | Embedding: ada-002 | Vector DB: Qdrant | Backend: FastAPI",
+    "description": "",
+    "links": [
+      {
+        "label": "GitHub Link",
+        "url": "https://github.com/monircse061/AI-Product-Recommendation-Using-LLM-and-RAG"
+      }
+    ],
+    "id": "academic-project-1",
+    "createdAt": "2000-01-14T00:00:00Z"
+  },
+  {
+    "title": "Syntax-Aware AI-Powered Code Completion Extension for C",
+    "course": "MSc Project",
+    "level": "Master’s",
+    "year": "",
+    "technologies": "Platform: VSCode | Language: JavaScript, TypeScript | Parser: YAPB | Backend: Node.js | API: OpenAI GPT | Grammar: LR (C11)",
+    "description": "Visual Studio Code extension or plugin for C programming language.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/1rwG3ilkbJo8nWFm_a04_WnudVLHTpkXq/view?usp=sharing"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/C-Extension"
+      }
+    ],
+    "id": "academic-project-2",
+    "createdAt": "2000-01-13T00:00:00Z"
+  },
+  {
+    "title": "Syntax-Aware AI-Powered Code Completion Extension for Microsoft Small Basic",
+    "course": "MSc Project",
+    "level": "Master’s",
+    "year": "",
+    "technologies": "Platform: VSCode | Language: JavaScript, TypeScript | Parser: YAPB | Backend: Node.js | API: OpenAI GPT | Grammar: LR (Small Basic)",
+    "description": "Visual Studio Code extension or plugin for Microsoft Small Basic programming language.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/15E8LDfQWxhlr06ugGKGBuE-zS5E5adVy/view?usp=sharing"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/Small-Basic-Extension"
+      }
+    ],
+    "id": "academic-project-3",
+    "createdAt": "2000-01-12T00:00:00Z"
+  },
+  {
+    "title": "Heart Diseases Medical Terminology Search Engine",
+    "course": "[GR20039-1] Topics on Web Mining",
+    "level": "Graduate coursework",
+    "year": "",
+    "technologies": "Framework: Flask | Front End: HTML, CSS | Back End: Python | Web Crawler: Apache Nutch | NLP: scikit-learn | API: SNOMED",
+    "description": "",
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://drive.google.com/file/d/1T_Xp9YkJ45RX3b8IG6fGYOzR3z39TddW/view?usp=sharing"
+      },
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/1NkQLt7I1b5ymWJeXLEEh2auLQYBm5ihK/view?usp=sharing"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/Medical-Terminology-Search-Engine"
+      }
+    ],
+    "id": "academic-project-4",
+    "createdAt": "2000-01-11T00:00:00Z"
+  },
+  {
+    "title": "Researcher Support System (Research Topic Selection/Recommendation Program)",
+    "course": "Topics in Intelligence System: Knowledge-based System",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Framework: Protégé with SWRL | Back End: R Studio with OpenRepGrid | Analysis Tools: PCA, Fuzzy Cognitive Maps",
+    "description": "",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/18Ln-SV51xbzHySbLMV7grMjI6G6oyczi/view?usp=sharing"
+      }
+    ],
+    "id": "academic-project-5",
+    "createdAt": "2000-01-10T00:00:00Z"
+  },
+  {
+    "title": "Defense Covid-19 App",
+    "course": "[CSE 360] Project Under Software Engineering",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Java, Android Studio",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/All-Projects/tree/main/DefenceCorona"
+      },
+      {
+        "label": "Slides",
+        "url": "https://docs.google.com/presentation/d/1OavpPuxizHc3Hhu1ErRMy2iQIU0VJsVU/edit?usp=sharing&ouid=115308860066824365549&rtpof=true&sd=true"
+      }
+    ],
+    "id": "academic-project-6",
+    "createdAt": "2000-01-09T00:00:00Z"
+  },
+  {
+    "title": "Advance Ecommerce Website “Beautiful Waste”",
+    "course": "[CSE 378] Project Under Web Development",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Framework: Laravel | Front End: Bootstrap, CSS, JavaScript | Back End: PHP, HTML",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://drive.google.com/drive/folders/1hPWhFqbhksEvoEpo7rqBSMvVuPkFgsGF?usp=sharing"
+      },
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/1YU1-5DeuF2VzRZI3jqQk7t-6ms4R2KCa/view?usp=sharing"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=HuDoM5U5XQw&ab_channel=MonirAhammod"
+      },
+      {
+        "label": "Slides",
+        "url": "https://docs.google.com/presentation/d/1Ldv8OlovlFDcArsh73US9Ks2rcfzRbzL/edit?usp=sharing&ouid=115308860066824365549&rtpof=true&sd=true"
+      }
+    ],
+    "id": "academic-project-7",
+    "createdAt": "2000-01-08T00:00:00Z"
+  },
+  {
+    "title": "IoT Object Detection on the Road for Running Cars: Reducing Road Accidents",
+    "course": "[CSE 466] Robotics Laboratory",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Arduino",
+    "description": "",
+    "links": [
+      {
+        "label": "Video",
+        "url": "https://youtu.be/-MEMwWFLAC4"
+      }
+    ],
+    "id": "academic-project-8",
+    "createdAt": "2000-01-07T00:00:00Z"
+  },
+  {
+    "title": "Farmer’s Field App (Android App)",
+    "course": "[CSE 360] Software Engineering",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Java, Android Studio",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/Farmer-App"
+      },
+      {
+        "label": "Slides",
+        "url": "https://docs.google.com/presentation/d/1Q2s1f0MD_Uu57UeEWLCNc7WkgoBumbrE/edit?usp=sharing&ouid=115308860066824365549&rtpof=true&sd=true"
+      }
+    ],
+    "id": "academic-project-9",
+    "createdAt": "2000-01-06T00:00:00Z"
+  },
+  {
+    "title": "Hospital Management Website",
+    "course": "[CSE 310] Project Under Database Management Systems",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Front End: Bootstrap, CSS, JavaScript | Back End: PHP, HTML",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/All-Projects/tree/main/Hospital%20Management%20Project"
+      }
+    ],
+    "id": "academic-project-10",
+    "createdAt": "2000-01-05T00:00:00Z"
+  },
+  {
+    "title": "Advance Virtual Network with Clients and Servers",
+    "course": "[CSE 354] Project Under Computer Network",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Cisco Packet Tracer",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://drive.google.com/drive/folders/1BFm31TPphKzsUsPxTETpABMW5iKtFEnu?usp=sharing"
+      },
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/1ghvxOzoukUr5v-4VFKTtvBLWGMKLTV4_/view?usp=sharing"
+      },
+      {
+        "label": "Slides",
+        "url": "https://docs.google.com/presentation/d/1as6Mu8pWGvD-X0DzEI5B8VVwwnr2oEmp/edit?usp=drive_link&ouid=115308860066824365549&rtpof=true&sd=true"
+      }
+    ],
+    "id": "academic-project-11",
+    "createdAt": "2000-01-04T00:00:00Z"
+  },
+  {
+    "title": "Mobile Doctor Web Using C++ Graphics",
+    "course": "[CSE 178] Project Under Object Oriented Programming",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "C, C++, Graphics of C++",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/monircse061/All-Projects/tree/main/Mobile%20Doctor"
+      },
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/19Bn_sfikbmGkb72LbTi_6qwzKJ69SLRH/view?usp=sharing"
+      },
+      {
+        "label": "Slides",
+        "url": "https://docs.google.com/presentation/d/1EtQUlV5qEEHW9VkdX_uD-Jwtt93mobWX/edit?usp=drive_link&ouid=115308860066824365549&rtpof=true&sd=true"
+      }
+    ],
+    "id": "academic-project-12",
+    "createdAt": "2000-01-03T00:00:00Z"
+  },
+  {
+    "title": "Flower, Mosque, Greeting Card, and Flag Design",
+    "course": "[CSE 352] Computer Graphics Lab",
+    "level": "Undergraduate",
+    "year": "",
+    "technologies": "Graphics of C++",
+    "description": "",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://drive.google.com/drive/folders/1z-JNlNovLGR4Qs-UZxOOFUgWbHTQc2ih?usp=sharing"
+      },
+      {
+        "label": "OpenGL Code PDF",
+        "url": "https://drive.google.com/file/d/1JHPM91SO6C-Gqvs1GlLLW2wW6UGNaDyj/view?usp=sharing"
+      }
+    ],
+    "id": "academic-project-13",
+    "createdAt": "2000-01-02T00:00:00Z"
+  }
+]

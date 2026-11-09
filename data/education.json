@@ -1,0 +1,50 @@
+[
+  {
+    "id": "education-1",
+    "degree": "MSc",
+    "field": "Artificial Intelligence Convergence",
+    "institution": "Chonnam National University",
+    "location": "South Korea",
+    "startYear": "2024",
+    "endYear": "2025",
+    "details": "",
+    "url": "",
+    "createdAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "education-2",
+    "degree": "BSc",
+    "field": "Computer Science and Engineering",
+    "institution": "Gopalganj Science and Technology University (GSTU)",
+    "location": "Bangladesh",
+    "startYear": "2017",
+    "endYear": "2022",
+    "details": "",
+    "url": "",
+    "createdAt": "2022-01-01T00:00:00Z"
+  },
+  {
+    "id": "education-3",
+    "degree": "Higher Secondary School Certificate",
+    "field": "Science",
+    "institution": "Shahid Syed Nazrul Islam College",
+    "location": "Mymensingh, Bangladesh",
+    "startYear": "2014",
+    "endYear": "2016",
+    "details": "",
+    "url": "",
+    "createdAt": "2016-01-01T00:00:00Z"
+  },
+  {
+    "id": "education-4",
+    "degree": "Secondary School Certificate",
+    "field": "Science",
+    "institution": "Anjuman Adarsha Government High School",
+    "location": "Netrokona, Bangladesh",
+    "startYear": "2010",
+    "endYear": "2014",
+    "details": "",
+    "url": "",
+    "createdAt": "2014-01-01T00:00:00Z"
+  }
+]

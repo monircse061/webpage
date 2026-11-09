@@ -953,3 +953,25 @@
          width: 340px;
      }
  }
+
+/* Dashboard-managed legacy content collections */
+.cms-teaching-root{padding:18px 0 28px;}
+.cms-course-period{max-width:1100px;margin:20px auto;padding:22px 28px;background:#404040;border:1px solid #696969;border-left:5px solid #ec8700;border-radius:9px;color:#fff;}
+.cms-course-period h3{margin:0 0 14px;color:#fff;font-size:1.35rem;}
+.cms-course-period ul{margin:0;padding-left:22px;line-height:1.9;color:#f4f4f4;}
+.cms-course-period li{padding:3px 0;}
+.cms-activity-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px auto 34px;max-width:1160px;}
+.cms-activity-card{background:#3c3c3c;border:1px solid #686868;border-top:4px solid #ec8700;border-radius:9px;padding:20px;text-align:left;color:#f5f5f5;box-shadow:0 3px 12px rgba(0,0,0,.12);}
+.cms-activity-card h3{font-size:1.1rem;color:#fff;line-height:1.45;margin:6px 0 12px;}
+.cms-activity-card p{font-size:.96rem;line-height:1.7;color:#eee;margin:0 0 12px;}
+.cms-activity-meta{color:#ffb15c;font-size:.85rem;font-weight:700;margin-bottom:8px;}
+.cms-card-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;}
+.cms-card-links a{color:#ffb15c;text-decoration:underline;}
+.cms-certifications-root{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:24px 30px 40px;}
+.cms-certificate-card{background:#fff;border:1px solid #ddd;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 3px 12px rgba(0,0,0,.08);}
+.cms-certificate-card img{display:block;width:100%;height:230px;object-fit:contain;background:#f6f6f6;}
+.cms-certificate-body{padding:18px 20px;color:#333;}
+.cms-certificate-body h3{font-size:1.1rem;line-height:1.4;margin:0 0 8px;color:#333;}
+.cms-certificate-body p{line-height:1.55;color:#555;}
+.cms-certificate-meta{font-size:.87rem;color:#a66b28;font-weight:600;}
+@media(max-width:767px){.cms-activity-grid,.cms-certifications-root{grid-template-columns:1fr;padding:18px 14px}.cms-course-period{margin:14px 12px;padding:16px}.cms-certificate-card img{height:190px}}

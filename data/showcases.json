@@ -1,0 +1,72 @@
+[
+  {
+    "id": "showcase-1",
+    "title": "Sign Up Page (HTML & CSS) — Live Demo",
+    "category": "Web development",
+    "description": "A clean, responsive sign-up UI built with pure HTML and CSS.",
+    "url": "https://monircse061.github.io/Sign-Up-Page/",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://monircse061.github.io/Sign-Up-Page/"
+      }
+    ],
+    "createdAt": "2000-01-05T00:00:00Z"
+  },
+  {
+    "id": "showcase-2",
+    "title": "Cool Landing Page — Live Demo",
+    "category": "Web development",
+    "description": "A modern landing page layout showcasing UI structure and styling.",
+    "url": "https://monircse061.github.io/Cool-Landing-Page/",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://monircse061.github.io/Cool-Landing-Page/"
+      }
+    ],
+    "createdAt": "2000-01-04T00:00:00Z"
+  },
+  {
+    "id": "showcase-3",
+    "title": "Business Landing Page — Live Demo",
+    "category": "Web development",
+    "description": "A business-style webpage design demonstrating professional layout patterns.",
+    "url": "https://monircse061.github.io/Business-Landing-Page/",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://monircse061.github.io/Business-Landing-Page/"
+      }
+    ],
+    "createdAt": "2000-01-03T00:00:00Z"
+  },
+  {
+    "id": "showcase-4",
+    "title": "My Portfolio Page — Live Demo",
+    "category": "Web development",
+    "description": "A personal portfolio website highlighting projects and profile information.",
+    "url": "https://monircse061.github.io/my_portfolio/",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://monircse061.github.io/my_portfolio/"
+      }
+    ],
+    "createdAt": "2000-01-02T00:00:00Z"
+  },
+  {
+    "id": "showcase-5",
+    "title": "Behance (Design Portfolio) — View Profile",
+    "category": "Design portfolio",
+    "description": "A curated collection of UI/UX and visual design work on Behance.",
+    "url": "https://www.behance.net/monirahammod",
+    "links": [
+      {
+        "label": "View Profile",
+        "url": "https://www.behance.net/monirahammod"
+      }
+    ],
+    "createdAt": "2000-01-01T00:00:00Z"
+  }
+]

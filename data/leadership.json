@@ -1,0 +1,61 @@
+[
+  {
+    "id": "leadership-1",
+    "title": "District Team Leader at ICT Olympiad Bangladesh, Netrakona (2022) [Profile]",
+    "organization": "",
+    "startDate": "2022",
+    "endDate": "2022",
+    "description": "ICT Olympiad Bangladesh (ICTOB) is a significant annual competition in Bangladesh, spanning pre-school to university levels, and focusing on information and communications technology. It covers various topics, including ICT Fundamentals, Communication System and Networking, Number System and Digital Devices, Web Design and HTML, Basic Programming, and Database Management System, benefiting students preparing for Digital Bangladesh.",
+    "links": [
+      {
+        "label": "ICT Olympiad Bangladesh, Netrakona",
+        "url": "https://www.ictolympiadbangladesh.com/"
+      },
+      {
+        "label": "[Profile]",
+        "url": "https://drive.google.com/file/d/1cvFnVWcbFRw228uzRgvmB7upZFC_0yej/view?usp=sharing"
+      }
+    ],
+    "createdAt": "2022-12-30T00:00:00Z"
+  },
+  {
+    "id": "leadership-2",
+    "title": "Team Leader at National High School Programming Contest 2018",
+    "organization": "",
+    "startDate": "2018",
+    "endDate": "2018",
+    "description": "A competitive programming skill enhancement initiative was organized on the BSMRSTU (Host) campus, inviting junior school and college students from the Khulna region to participate in a regional programming contest. NHPC, the organizing body, also arranges various meetups for code enthusiasts. I had the opportunity to work as a team leader for the Food Serving Volunteers team during my second year as an undergraduate student at BSMRSTU.",
+    "links": [
+      {
+        "label": "National High School Programming Contest 2018",
+        "url": "https://www.facebook.com/groups/NHSPC/"
+      }
+    ],
+    "createdAt": "2018-12-29T00:00:00Z"
+  },
+  {
+    "id": "leadership-3",
+    "title": "Member- Secretary at Uttara University Programming Club (2022-ongoing)",
+    "organization": "",
+    "startDate": "2022",
+    "endDate": "Ongoing",
+    "description": "Organizer of several programming workshop and contests.",
+    "links": [
+      {
+        "label": "Uttara University Programming Club",
+        "url": "https://uttarauniversity.edu.bd/dept-of-cse-uttara-university-successfully-participated-in-sust-ctf-programming-contest/"
+      }
+    ],
+    "createdAt": "2022-12-28T00:00:00Z"
+  },
+  {
+    "id": "leadership-4",
+    "title": "Member at Uttara University CSE Event Management Committee (20122-Ongoing)",
+    "organization": "",
+    "startDate": "2012",
+    "endDate": "Ongoing",
+    "description": "Organizing ICT fair, opening ceremony, and cultural programs for UG students.",
+    "links": [],
+    "createdAt": "2012-12-27T00:00:00Z"
+  }
+]

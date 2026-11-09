@@ -1,0 +1,74 @@
+[
+  {
+    "id": "experience-1",
+    "position": "Lecturer, Department of Computer Science and Engineering",
+    "organization": "Uttara University",
+    "location": "Bangladesh",
+    "startDate": "2026-09",
+    "endDate": "Ongoing",
+    "employmentType": "Full-time",
+    "description": "",
+    "courseUrl": "Teaching.html",
+    "createdAt": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "experience-2",
+    "position": "Research Assistant",
+    "organization": "Software Languages and Systems Laboratory for Security, Chonnam National University",
+    "location": "South Korea",
+    "startDate": "2024-03",
+    "endDate": "2025-08",
+    "employmentType": "Research Assistant",
+    "description": "",
+    "courseUrl": "",
+    "createdAt": "2025-08-01T00:00:00Z"
+  },
+  {
+    "id": "experience-3",
+    "position": "Lecturer, Department of Computer Science and Engineering",
+    "organization": "Uttara University",
+    "location": "Bangladesh",
+    "startDate": "2022-09",
+    "endDate": "2024-02",
+    "employmentType": "Full-time",
+    "description": "",
+    "courseUrl": "Teaching.html",
+    "createdAt": "2024-02-01T00:00:00Z"
+  },
+  {
+    "id": "experience-4",
+    "position": "Junior Research Assistant",
+    "organization": "Research Hub Inc.",
+    "location": "Dhaka, Bangladesh",
+    "startDate": "2022-03",
+    "endDate": "2022-09",
+    "employmentType": "Part-time",
+    "description": "",
+    "courseUrl": "",
+    "createdAt": "2022-09-01T00:00:00Z"
+  },
+  {
+    "id": "experience-5",
+    "position": "Assistant Teacher, Section of Science",
+    "organization": "Shaheen Cadet School and College",
+    "location": "Netrokona, Bangladesh",
+    "startDate": "2022-03",
+    "endDate": "2022-08",
+    "employmentType": "",
+    "description": "",
+    "courseUrl": "",
+    "createdAt": "2022-08-01T00:00:00Z"
+  },
+  {
+    "id": "experience-6",
+    "position": "Computer Instructor",
+    "organization": "Traffic Police Office",
+    "location": "Netrokona, Bangladesh",
+    "startDate": "2021-09",
+    "endDate": "2021-12",
+    "employmentType": "",
+    "description": "",
+    "courseUrl": "",
+    "createdAt": "2021-12-01T00:00:00Z"
+  }
+]
