@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "647099ea-9919-4933-97eb-992a560138d2",
+    "title": "Zero-Shot Voice-Based Screening of ALS and Parkinson's Disease Using Audio and Language Models",
+    "description": "Zero-Shot Voice-Based Screening of ALS and Parkinson's Disease Using Audio and Language Models\nResearch prototype. Not a medical diagnostic tool. This repository is for controlled research on whether pretrained language and audio-language models can identify speech patterns associated with amyotrophic lateral sclerosis (ALS) and Parkinson's disease (PD). It must not be used to diagnose, triage, or make treatment decisions.\n\nProject overview\nThis project investigates the use of pretrained models in a zero-shot setting for voice-based screening research. The initial models of interest are:\n\nQwen2-Audio: direct audio-language inference.\nFalcon3-Audio: direct audio-language inference, subject to confirming the selected checkpoint's input and inference interface.\nLlama: text-based inference after an automatic speech recognition (ASR) step, unless an audio-capable Llama variant is selected.\nThe main research question is:\n\nCan pretrained models, without task-specific fine-tuning, distinguish voice samples from people with ALS or PD from samples collected from healthy controls?\n\nThe project will evaluate both disease-level predictions and speech-characteristic descriptions. A speech characteristic such as dysarthria is not equivalent to an ALS or PD diagnosis. The analysis must keep these labels separate.\n\nResearch objectives\nEstablish reproducible zero-shot inference pipelines for audio-language and text-language models.\nCompare direct audio prompting with an ASR-to-text-to-LLM pipeline.\nEvaluate ALS, PD, and healthy-control (HC) classification where the dataset supports these labels.\nExamine whether predictions are stable across prompt wording, audio duration, and repeated runs.\nReport errors, uncertainty, and limitations rather than relying on accuracy alone.",
+    "technologies": "",
+    "role": "Lead Developer",
+    "year": "2026",
+    "githubUrl": "https://github.com/monircse061/Zero-Shot-Voice-Based-Screening-of-ALS-and-Parkinson-s-Disease-Using-Audio-LLMs",
+    "paperUrl": "",
+    "imageUrl": "",
+    "createdAt": "2026-11-09T11:44:42.888Z"
+  }
+]
